@@ -5,7 +5,7 @@ import tempfile                            # To handle temporary file storage
 
 # Initialize the Gemini client using your API key
 # ⚠️ Important: Don't hardcode API keys in production. Use environment variables or secure storage.
-client = genai.Client(api_key="AIzaSyDLmjo9jIFXjt-cq77AEIB8kR_erm0IJVs")
+client = genai.Client(api_key="your_api_key") # Replace with your actual API key this won't work
 
 # --- Streamlit UI Setup ---
 
